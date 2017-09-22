@@ -1,0 +1,25 @@
+{
+  "name": "waglm",
+  "version": "0.1.0",
+  "description": "Web Assembly Matrix Math Library",
+  "main": "index.js",
+  "scripts": {
+    "build": "node build/build.js",
+    "build:exe": "mingw32-make",
+    "postbuild:exe": "node build/clean.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "wasm",
+    "matrix",
+    "vector",
+    "gl-matrix"
+  ],
+  "author": "Austin Martin",
+  "license": "ISC",
+  "devDependencies": {
+    "http-server": "^0.10.0",
+    "node-cmd": "^3.0.0",
+    "yargs": "^8.0.2"
+  }
+}
